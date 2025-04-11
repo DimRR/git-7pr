@@ -1,0 +1,30 @@
+object Form4: TForm4
+  Left = 524
+  Height = 177
+  Top = 285
+  Width = 351
+  Caption = 'Главное меню'
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  LCLVersion = '3.6.0.0'
+  object MainMenu1: TMainMenu
+    Left = 45
+    Top = 46
+    object MenuItem1: TMenuItem
+      Caption = 'группировка'
+      OnClick = MenuItem1Click
+    end
+    object MenuItem2: TMenuItem
+      Caption = 'дело'
+      OnClick = MenuItem2Click
+    end
+    object MenuItem3: TMenuItem
+      Caption = 'преступления'
+      OnClick = MenuItem3Click
+    end
+    object MenuItem4: TMenuItem
+      Caption = 'выход'
+      OnClick = MenuItem4Click
+    end
+  end
+end
